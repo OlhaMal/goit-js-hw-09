@@ -17,6 +17,21 @@ img {
   max-width: 100%;
 }
 
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.container button {
+  border-radius: 7px;
+  background-color: #ecf6f5;
+  border-color: #ecf6f5;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 11px;
+}
+
 .timer {
   display: flex;
   justify-content: space-between;
